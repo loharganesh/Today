@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingTop="35dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="35dp">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:text="You need to sign in to continue using today in order to manage your to-do"
+        android:textColor="@color/textColorSecondary" />
+
+    <Button
+        android:id="@+id/dialog_signin_button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_primary"
+        android:fontFamily="@font/montserrat"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:stateListAnimator="@null"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/dialog_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:padding="15dp"
+        android:text="@android:string/cancel"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14sp" />
+</LinearLayout>
